@@ -28,7 +28,7 @@ class _MyAppState extends State<MyApp> {
     // We can also handle the message potentially returning null.
     try {
       imagePath = (await EdgeDetection.detectEdge);
-      print("...................$imagePath");
+      print("....................$imagePath");
     } on PlatformException
      catch (e) {
       imagePath = e.toString();

@@ -66,7 +66,7 @@ class _MyAppState extends State<MyApp> {
                   ),
                 ),
                 SizedBox(height: 20),
-                Text('Cropped image path:'),
+                Text('Cropped image path:,'),
                 Padding(
                   padding: const EdgeInsets.only(top: 0, left: 0, right: 0),
                   child: Text(
